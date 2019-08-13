@@ -1,0 +1,170 @@
+object DZad: TDZad
+  Left = 528
+  Top = 130
+  Width = 355
+  Height = 408
+  Caption = #1048#1079#1084#1077#1085#1077#1085#1080#1103' '#1079#1072#1076#1072#1085#1080#1103
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 64
+    Height = 13
+    Caption = #1050#1086#1076' '#1079#1072#1076#1072#1085#1080#1103
+    FocusControl = DBEdit1
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 48
+    Width = 26
+    Height = 13
+    Caption = #1044#1072#1090#1072
+    FocusControl = DBEdit2
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 88
+    Width = 53
+    Height = 13
+    Caption = #1053#1086#1084#1077#1088' '#1055#1051
+    FocusControl = DBEdit3
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 128
+    Width = 69
+    Height = 13
+    Caption = #1050#1086#1076' '#1074#1086#1076#1080#1090#1077#1083#1103
+    FocusControl = DBEdit4
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 168
+    Width = 114
+    Height = 13
+    Caption = #1040#1076#1088#1077#1089' '#1084#1077#1089#1090#1072' '#1087#1086#1075#1088#1091#1079#1082#1080
+    FocusControl = DBEdit5
+  end
+  object Label6: TLabel
+    Left = 8
+    Top = 208
+    Width = 120
+    Height = 13
+    Caption = #1040#1076#1088#1077#1089' '#1084#1077#1089#1090#1072' '#1088#1072#1079#1075#1088#1091#1079#1082#1080
+    FocusControl = DBEdit6
+  end
+  object Label7: TLabel
+    Left = 8
+    Top = 248
+    Width = 114
+    Height = 13
+    Caption = #1053#1072#1080#1084#1077#1085#1086#1074#1072#1085#1086#1077' '#1090#1086#1074#1072#1088#1072
+    FocusControl = DBEdit7
+  end
+  object Label8: TLabel
+    Left = 8
+    Top = 288
+    Width = 97
+    Height = 13
+    Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' '#1090#1086#1074#1072#1088#1072
+    FocusControl = DBEdit8
+  end
+  object DBEdit1: TDBEdit
+    Left = 8
+    Top = 24
+    Width = 277
+    Height = 21
+    DataField = 'kod_zadaniya'
+    DataSource = TZad.DataSource1
+    TabOrder = 0
+  end
+  object DBEdit2: TDBEdit
+    Left = 8
+    Top = 64
+    Width = 277
+    Height = 21
+    DataField = 'data'
+    DataSource = TZad.DataSource1
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 8
+    Top = 104
+    Width = 277
+    Height = 21
+    DataField = 'nomer_PL'
+    DataSource = TZad.DataSource1
+    TabOrder = 2
+  end
+  object DBEdit4: TDBEdit
+    Left = 8
+    Top = 144
+    Width = 277
+    Height = 21
+    DataField = 'kod_voditelya'
+    DataSource = TZad.DataSource1
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 8
+    Top = 184
+    Width = 277
+    Height = 21
+    DataField = 'adres_mesta_pogruzki'
+    DataSource = TZad.DataSource1
+    TabOrder = 4
+  end
+  object DBEdit6: TDBEdit
+    Left = 8
+    Top = 224
+    Width = 277
+    Height = 21
+    DataField = 'adres_mesta_razgruzki'
+    DataSource = TZad.DataSource1
+    TabOrder = 5
+  end
+  object DBEdit7: TDBEdit
+    Left = 8
+    Top = 264
+    Width = 277
+    Height = 21
+    DataField = 'naimenovanie_tovara'
+    DataSource = TZad.DataSource1
+    TabOrder = 6
+  end
+  object DBEdit8: TDBEdit
+    Left = 8
+    Top = 304
+    Width = 277
+    Height = 21
+    DataField = 'kolichestvo_tovara'
+    DataSource = TZad.DataSource1
+    TabOrder = 7
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 336
+    Width = 75
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    TabOrder = 8
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 144
+    Top = 336
+    Width = 75
+    Height = 25
+    Caption = #1054#1090#1084#1077#1085#1072
+    TabOrder = 9
+    OnClick = Button2Click
+  end
+end
